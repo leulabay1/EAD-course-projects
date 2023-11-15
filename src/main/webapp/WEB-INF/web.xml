@@ -1,0 +1,66 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+
+
+<web-app >
+  <display-name>Archetype Created Web Application
+  </display-name>
+
+  <servlet>
+    <servlet-name>OperationServlet</servlet-name>
+    <servlet-class>OperationServlet</servlet-class>
+  </servlet>
+
+  <!-- Servlet Mapping -->
+  <servlet-mapping>
+    <servlet-name>OperationServlet</servlet-name>
+    <url-pattern>/operation</url-pattern>
+  </servlet-mapping>
+
+  <welcome-file-list>
+    <welcome-file>home.html</welcome-file>
+  </welcome-file-list>
+
+  <servlet>
+    <servlet-name>AdditionServlet</servlet-name>
+    <servlet-class>AdditionServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>AdditionServlet</servlet-name>
+    <url-pattern>/addition</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>SubtractionServlet</servlet-name>
+    <servlet-class>SubtractionServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>SubtractionServlet</servlet-name>
+    <url-pattern>/subtraction</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>MultiplicationServlet</servlet-name>
+    <servlet-class>MultiplicationServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>MultiplicationServlet</servlet-name>
+    <url-pattern>/multiplication</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>DivisionServlet</servlet-name>
+    <servlet-class>DivisionServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>DivisionServlet</servlet-name>
+    <url-pattern>/division</url-pattern>
+  </servlet-mapping>
+
+</web-app>
